@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    background-color: #cccccc;
+}
+table{
+    border-spacing: 0;
+}
+td{
+    padding: 0;
+}
+img{
+    border: 0;
+}
+.wrapper{
+width: 100%;
+table-layout: fixed;
+background-color: #cccccc;
+padding-bottom: 60px;
+}
+.main{
+background-color: #ffffff;
+margin: 0 auto;
+width: 100%;
+max-width: 600px;
+border-spacing: 0;
+font-family: sans-serif;
+color: #171a1b;
+}
+.two-columns{
+    text-align: left; 
+}
+.two-columns .column {
+width: 100%;
+max-width: 250px;
+display: inline;
+text-align: center;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 12px; 
+    text-align: center; 
+width: 100%;}
+
+.button1 
+{
+    font-size: larger; color: white; 
+    background-color: black; 
+    padding: 15px; 
+    border:2px; 
+    border-radius: 5px;
+     transition: background-color 0.3s;
+     text-decoration: none;
+}
+.button1:hover {
+    background-color: darkgrey;
+}
+.three-columns{
+    text-align: center;
+    font-size: 0;
+    padding: 15px 0 25px;
+}
+.three-columns .columns {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    text-align: center;
+    }
+    .three-columns .padding{
+        padding: 30px;
+    }
+    .three-columns .content{
+        font-size: 15px;
+        line-height: 20px;
+        padding: 0 5px;
+    }
+    .two-columns.last{
+padding: 15px 0;
+display: flex;
+    }
+    .two-columns .padding{
+        padding: 20px;
+    }
+
+        .two-columns .content{
+            line-height: 20px;
+            text-align: left;
+            padding-top: -20px;
+         }
+         .button2{
+            background-color: #ffffff;
+            color: #171a1b;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+         }
+        .button-dark {
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
